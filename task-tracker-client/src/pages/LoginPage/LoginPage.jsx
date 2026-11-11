@@ -22,7 +22,7 @@ const handleLogin = async (e) => {
       // Сохраняем пользователя и добавляем роль (заглушка)
       const userData = {
         ...response.data,
-        role: 'ADMIN' // <-- ЗАГЛУШКА. Можно поменять роль на обсервера.
+        role: 'ADMIN' // <- ЗАГЛУШКА. Можно поменять роль на обсервера.
       };
       localStorage.setItem('user', JSON.stringify(userData));
 
