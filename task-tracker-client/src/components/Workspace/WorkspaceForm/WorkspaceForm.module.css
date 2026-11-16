@@ -1,33 +1,50 @@
 .form {
   display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
+  flex-wrap: wrap; 
+  width: 100%;
+  align-items: center; 
+  gap: 15px; 
 }
 
+/* --- 1. ПОЛЕ НАЗВАНИЯ --- */
 .input {
+  width: 350px; 
+  flex: none;   
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 14px;
-  flex-grow: 1; /* Поле растягивается */
+  box-sizing: border-box;
 }
 
-/* Новый класс для поля кода */
+/* --- 2. ПОЛЕ КОДА --- */
 .codeInput {
-  max-width: 150px;
-  flex-grow: 0; /* Не растягивается */
-  text-transform: uppercase; /* Автоматически делает буквы заглавными */
+  width: 220px; 
+  flex: none;   
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  text-transform: uppercase;
+  box-sizing: border-box;
 }
 
+/* --- 3. КНОПКА --- */
 .button {
-  padding: 8px 16px;
-  background-color: #007bff;
+  width: 120px; 
+  flex: none;   
+  padding: 8px 0; 
+  margin-bottom: 40px;
+  background-color: #0e0f0f;
   color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  box-sizing: border-box;
+  text-align: center;
+  margin-left: 790px;
 }
 
 .button:hover {
-  background-color: #0056b3;
+  background-color: #7f8184;
 }

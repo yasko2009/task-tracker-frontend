@@ -21,9 +21,21 @@
   margin-top: 5px;
 }
 
+.replyBtn {
+  width: 80px;
+  background-color: #139f10;
+  color: #fcfffb;
+  border: none;
+  border-radius: 3px;
+}
+
 /* Кнопка удаления (красный цвет) */
 .deleteBtn {
-  color: #d9534f;
+  width: 80px;
+  background-color: #df0a0a;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
 }
 
 /* Пометка "Ответ на комментарий" */
@@ -38,7 +50,7 @@
 .toggleRepliesBtn {
   background: none;
   border: none;
-  color: #0366d6;
+  color: #0b0c0d;
   cursor: pointer;
   font-size: 13px;
   font-weight: 500;
@@ -56,6 +68,6 @@
 .replies {
   margin-left: 24px;
   margin-top: 8px;
-  border-left: 3px solid #0366d6; /* Синяя линия для иерархии */
+  border-left: 3px solid #050505; /* Синяя линия для иерархии */
   padding-left: 16px;
 }

@@ -83,14 +83,14 @@
 
 .commentForm textarea:focus {
   outline: none;
-  border-color: #007bff;
+  border-color: #0f0f10;
   box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1); 
 }
 
 .commentForm button[type="submit"] {
   align-self: flex-end;
   padding: 10px 24px;
-  background: #007bff;
+  background: #16a016;
   color: white;
   border: none;
   border-radius: 6px;
@@ -100,7 +100,7 @@
 }
 
 .commentForm button[type="submit"]:hover {
-  background: #0056b3;
+  background: #8c9196;
 }
 
 
