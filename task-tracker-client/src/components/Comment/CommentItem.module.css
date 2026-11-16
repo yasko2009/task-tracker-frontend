@@ -68,6 +68,6 @@
 .replies {
   margin-left: 24px;
   margin-top: 8px;
-  border-left: 3px solid #050505; /* Синяя линия для иерархии */
+  border-left: 3px solid #050505; 
   padding-left: 16px;
 }

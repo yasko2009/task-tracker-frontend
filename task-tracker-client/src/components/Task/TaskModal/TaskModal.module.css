@@ -124,19 +124,6 @@
   margin-bottom: 10px;
 }
 
-.replyBanner {
-  background: #e6f2ff;
-  padding: 10px 15px;
-  border-radius: 6px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 13px;
-  color: #0056b3;
-  border-left: 4px solid #007bff;
-  margin-bottom: 10px;
-}
-
 .replyBanner button {
   background: none;
   border: none;

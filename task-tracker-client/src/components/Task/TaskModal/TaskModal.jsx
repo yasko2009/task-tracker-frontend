@@ -146,7 +146,7 @@ function TaskModal({ task, onClose, currentUser }) {
             {canEdit && (
               <button
                 onClick={() => setIsEditing(true)}
-                style={{ padding: '6px 14px', backgroundColor: '#007bff', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer', marginBottom: '10px' }}
+                style={{ padding: '4px 8px', backgroundColor: '#19a82c', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer', marginBottom: '10px', marginTop: '10px' }}
               >
                 ✎ Редактировать
               </button>

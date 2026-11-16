@@ -4,7 +4,6 @@
   padding: 40px 30px; 
   font-family: sans-serif;
   box-sizing: border-box;
-  margin-top: 40px;
 }
 
 .header {
@@ -20,7 +19,6 @@
   color: #000000;
   font-weight: bold;
   font-size: 25px;
-  margin-right: 150px;
 }
 
 .error {
@@ -105,7 +103,7 @@
 }
 
 .memberMsg {
-  color: #007bff;
+  color: #060707;
   margin-bottom: 10px;
   font-size: 14px;
 }
@@ -173,9 +171,9 @@
 }
 
 .selectUserBtnSelected {
-  background-color: #007bff;
+  background-color: #0faf0f;
   color: white;
-  border-color: #007bff;
+  border-color: none;
 }
 
 .addMemberBox {
