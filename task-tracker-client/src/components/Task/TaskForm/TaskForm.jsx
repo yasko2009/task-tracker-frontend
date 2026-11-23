@@ -10,7 +10,7 @@ function TaskForm({ onCreate }) {
     e.preventDefault();
     if (!title.trim()) return;
 
-    // Передаем данные в BoardPage
+    // Передача данных в BoardPage
     onCreate({ title, description, priority });
     
     setTitle('');

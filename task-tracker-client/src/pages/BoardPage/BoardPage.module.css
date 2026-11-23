@@ -97,3 +97,13 @@
   padding: 20px;
   text-align: center;
 }
+
+.taskAssignee {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.taskAssignee strong {
+  color: #444;
+}

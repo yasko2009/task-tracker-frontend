@@ -18,11 +18,9 @@ const handleLogin = async (e) => {
       
       console.log("Ответ при логине:", response.data); 
       
-      // Если сервер вернул ID пользователя — сохраняем его
-      // Сохраняем пользователя и добавляем роль (заглушка)
       const userData = {
         ...response.data,
-        role: 'ADMIN' // <- ЗАГЛУШКА. Можно поменять роль на обсервера.
+        role: 'ADMIN' 
       };
       localStorage.setItem('user', JSON.stringify(userData));
 

@@ -7,7 +7,7 @@ function RegisterPage() {
   const [login, setLogin] = useState('');
   const [password, setPassword] = useState('');
   const [message, setMessage] = useState('');
-  const [isLoading, setIsLoading] = useState(false); // <- Для блокировки кнопки
+  const [isLoading, setIsLoading] = useState(false); // Для блокировки кнопки
   const navigate = useNavigate();
 
   const handleRegister = async (e) => {
@@ -42,7 +42,7 @@ function RegisterPage() {
         setMessage('Ошибка: ' + (error.response?.data?.message || error.message));
       }
     } finally {
-      setIsLoading(false); // Разблокируем кнопку
+      setIsLoading(false); 
     }
   };
 

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import styles from './CommentItem.module.css';
 
 function CommentItem({ comment, onReply, onDelete, currentUser }) {
-  const [showReplies, setShowReplies] = useState(false); // <- Состояние для вкладки
+  const [showReplies, setShowReplies] = useState(false); // Состояние для вкладки
   const isAuthor = currentUser?.id === comment.authorId || currentUser?.id === comment.author?.id;
 
   return (

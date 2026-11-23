@@ -58,7 +58,6 @@ function WorkspacesPage() {
     }
   };
 
-  // Поиск пользователей по логину
   const handleSearchUsers = async () => {
     if (!searchLogin.trim()) return;
     setMemberMsg('');
@@ -79,7 +78,6 @@ function WorkspacesPage() {
     }
   };
 
-  // Добавление участника в пространство
   const handleAddMember = async () => {
     if (!selectedUser || !selectedWs) return;
     setMemberMsg('');
@@ -101,7 +99,6 @@ function WorkspacesPage() {
 
   return (
     <div className={styles.container}>
-      {/* Шапка со ссылкой на профиль */}
       <div className={styles.header}>
         <h2>Мои рабочие пространства</h2>
         <Link to="/profile" className={styles.profileLink}>
@@ -114,7 +111,6 @@ function WorkspacesPage() {
       <WorkspaceForm onCreate={handleCreate} />
 
       <div className={styles.mainContent}>
-        {/* Левая колонка: Список карточек */}
         <div className={styles.leftColumn}>
           <h3 className={styles.listTitle}>Список ({workspaces.length})</h3>
           <div className={styles.cardsList}>
@@ -131,7 +127,6 @@ function WorkspacesPage() {
           </div>
         </div>
 
-        {/* Правая колонка: Детали */}
         <div className={styles.rightColumn}>
           {selectedWs ? (
             <div className={styles.workspaceDetails}>
@@ -153,7 +148,6 @@ function WorkspacesPage() {
                 <h3>Управление участниками</h3>
                 {memberMsg && <p className={styles.memberMsg}>{memberMsg}</p>}
 
-                {/* Поиск */}
                 <div className={styles.searchBox}>
                   <input
                     type="text"
@@ -167,7 +161,6 @@ function WorkspacesPage() {
                   </button>
                 </div>
 
-                {/* Результаты поиска */}
                 {foundUsers.length > 0 && (
                   <div className={styles.foundUsersBox}>
                     <p>Найденные пользователи:</p>
@@ -185,7 +178,6 @@ function WorkspacesPage() {
                   </div>
                 )}
 
-                {/* Выбор роли и добавление */}
                 {selectedUser && (
                   <div className={styles.addMemberBox}>
                     <select 
